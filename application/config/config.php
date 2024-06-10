@@ -526,15 +526,15 @@ $config['rewrite_short_tags'] = FALSE;
 | You can use both an array or a comma-separated list of proxy addresses,
 | as well as specifying whole subnets. Here are a few examples:
 |
-| Comma-separated:	'10.0.1.200,192.168.5.0/24'
+| Comma-separated:	'10.0.1.200,192.168.5.0/24' http://103.172.151.141:5001/..780816631155-gbvyo1o7r2pn95qc4ei9d61io4uh48hl...0n4XSMDQ2HL9Ho1LmNjrnKoVYfmIoViU
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
 
 //OCR DETAILS.....
-$config['OCR_url'] = 'http://103.172.151.141:5001/';
-$config['client_id'] = '780816631155-gbvyo1o7r2pn95qc4ei9d61io4uh48hl';
-$config['secret_key'] = '0n4XSMDQ2HL9Ho1LmNjrnKoVYfmIoViU';
+$config['OCR_url'] = 'YOUR_OCR_URL_HERE';
+$config['client_id'] = 'YOUR_CLIENT_ID_HERE';
+$config['secret_key'] = 'YOUR_SCRET_KEY_HERE';
 $config['api_type'] = 'WEB-API';
 
 //STATIC CREDENTIALS FOR LOGIN...
